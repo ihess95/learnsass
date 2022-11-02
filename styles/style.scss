@@ -2,4 +2,5 @@
 @import "./variables";
 .content {
   @extend header;
+  width: 2% * 20%;
 }
