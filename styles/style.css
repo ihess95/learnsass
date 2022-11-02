@@ -1,5 +1,28 @@
 header {
-  background: lightblue;
+  height: 100vh;
   display: flex;
   justify-content: center;
+  align-items: center;
+  background: lightblue;
+  color: rgb(96, 96, 163);
+}
+header button {
+  background: rgb(96, 96, 163);
+}
+header button:hover {
+  background: rgb(96, 96, 200);
+}
+header button::after {
+  content: "!";
+}
+header .mainText {
+  color: rgb(96, 96, 163);
+}
+
+.content button {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(96, 96, 163);
 }/*# sourceMappingURL=style.css.map */
